@@ -29,7 +29,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100%;
+  z-index: 100;
   padding: 2rem 7%;
   display: flex;
   justify-content: space-between;
@@ -301,257 +301,212 @@ header .navbar a:hover {
   flex-wrap: wrap;
 }
 
-
-.team .box-container .box{
-    width: 26rem ;
-    background: #fff;
-    margin: 1rem;
-    position: relative;
-    text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 8rem;
+.team .box-container .box {
+  width: 26rem;
+  background: #fff;
+  margin: 1rem;
+  position: relative;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
 }
 
-.team .box-container .box img{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    object-fit: cover;
+.team .box-container .box img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.team .box-container .box h3{
-    color: var(--black);
-    font-size: 2.5rem;
+.team .box-container .box h3 {
+  color: var(--black);
+  font-size: 2.5rem;
 }
 
-.team .box-container .box span{
-    color: var(--orange);
-    font-size: 1.5rem;
+.team .box-container .box span {
+  color: var(--orange);
+  font-size: 1.5rem;
 }
 
-
-.team .box-container .box p{
-    padding: 1rem 2.5rem;
-    font-size:1.4rem ;
-    color: #666;
-
+.team .box-container .box p {
+  padding: 1rem 2.5rem;
+  font-size: 1.4rem;
+  color: #666;
 }
 
-.team .box-container .box .share{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: var(--orange);
-    display: flex;
-    justify-content: center;
+.team .box-container .box .share {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--orange);
+  display: flex;
+  justify-content: center;
 }
 
-
-
-.team .box-container .box .share a{
- 
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    color: #fff;
-    font-size: 1.7rem;
-
-
+.team .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  color: #fff;
+  font-size: 1.7rem;
 }
 
-
-.team .box-container .box .share a:hover{
-    background: #fff;
-    color: var(--black);
+.team .box-container .box .share a:hover {
+  background: #fff;
+  color: var(--black);
 }
-
-
 
 .price {
   background: var(--black);
 }
 
-.price .heading{
+.price .heading {
   color: #fff;
 }
 
-.price  .box-container{
+.price .box-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-
-.price  .box-container .box{
+.price .box-container .box {
   flex: 1 1 35rem;
   margin: 1rem;
   text-align: center;
   padding: 4rem;
-border: .1rem solid var(--yellow);
-
-
+  border: 0.1rem solid var(--yellow);
 }
 
-.price  .box-container .box h3{
+.price .box-container .box h3 {
   color: #fff;
   font-size: 3rem;
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
-
-.price  .box-container .box .amount{
-  
+.price .box-container .box .amount {
   display: flex;
   justify-content: center;
   color: var(--yellow);
   font-size: 6rem;
-    /* padding-top: 1rem; */
+  /* padding-top: 1rem; */
 }
 
-.price  .box-container .box .amount span{
+.price .box-container .box .amount span {
   font-size: 2.5rem;
 }
 
-.price  .box-container .box p{
+.price .box-container .box p {
   color: #eee;
   font-size: 2rem;
   padding: 1rem 0;
 }
 
-
-.contact .row{
+.contact .row {
   display: flex;
   flex-wrap: wrap;
-  border: .1rem solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.contact .row .inputBox{
-
-    position: relative;
+.contact .row .inputBox {
+  position: relative;
 }
 
-
-.contact .row form{
-
+.contact .row form {
   flex: 1 1 40rem;
   padding: 2rem;
-
 }
 
-.contact .row .map{
-
+.contact .row .map {
   flex: 1 1 40rem;
   width: 100%;
-
 }
- 
-.contact .row form .inputBox input ,.contact .row form .inputBox textarea {
+
+.contact .row form .inputBox input,
+.contact .row form .inputBox textarea {
   width: 100%;
   margin: 1.5rem 0;
-  padding: .7rem 1rem;
+  padding: 0.7rem 1rem;
   color: #666;
   font-size: 1.7rem;
-  border: .1rem solid rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
   text-decoration: none;
-
 }
 
 .contact .row form .inputBox textarea {
-
   height: 15rem;
   resize: none;
-
 }
 
-.contact .row form .inputBox label{
-  
+.contact .row form .inputBox label {
   position: absolute;
   font-size: 1.5rem;
   top: 2.4rem;
   left: 1rem;
   color: #444;
-  
 }
 
-
-.contact .row form .inputBox input:focus ~ label ,.contact .row form .inputBox textarea:focus ~ label,
-.contact .row form .inputBox input:valid ~ label ,.contact .row form .inputBox textarea:valid ~ textarea{
-
-  top: -.7rem ;
+.contact .row form .inputBox input:focus ~ label,
+.contact .row form .inputBox textarea:focus ~ label,
+.contact .row form .inputBox input:valid ~ label,
+.contact .row form .inputBox textarea:valid ~ textarea {
+  top: -0.7rem;
   left: 0;
   color: var(--yellow);
 }
 
-
-.footer{
+.footer {
   background: var(--black);
 }
 
-.footer .box-container{
+.footer .box-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.footer .box-container .box{
+.footer .box-container .box {
   margin: 2rem;
   flex: 1 1 25rem;
 }
 
-
-.footer .box-container .box h3{
+.footer .box-container .box h3 {
   font-size: 2.5rem;
   color: #fff;
-padding: 1rem;
+  padding: 1rem;
 }
 
-.footer .box-container .box p{
+.footer .box-container .box p {
   font-size: 1.5rem;
   color: #fff;
-padding: .5rem;
+  padding: 0.5rem;
 }
 
-
-.footer .box-container .box a{
-  
+.footer .box-container .box a {
   display: block;
   font-size: 1.5rem;
   color: #fff;
-padding: .5rem;
+  padding: 0.5rem;
 }
 
-.footer a:hover{
+.footer a:hover {
   text-decoration: underline;
 }
 
-.footer .credit{
-
+.footer .credit {
   font-size: 2rem;
   color: #444;
   background: #fff;
   text-align: center;
   padding: 2.5rem 1rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
-
-.footer .credit a{
+.footer .credit a {
   color: var(--orange);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Media Queries */
 
@@ -624,17 +579,15 @@ padding: .5rem;
     font-size: 50%;
   }
 
-  .heading{
-      font-size: 3.5rem;
+  .heading {
+    font-size: 3.5rem;
   }
 
-.team .box-container .box{
-
+  .team .box-container .box {
     width: 100%;
-}
+  }
 
-.footer{
-  text-align: center;
-}
-
+  .footer {
+    text-align: center;
+  }
 }
